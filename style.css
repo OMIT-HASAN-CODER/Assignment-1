@@ -33,6 +33,10 @@
     border: 1px solid #006A50;
     border-radius: 8px;
   }
+  .nav-btn:hover{
+    background-color: #006A50;
+    color: #FFFFFF;
+  }
 
 
   /* banner styles */
@@ -67,6 +71,10 @@
     font-weight: 600;
     border-radius: 8px;
     border: none;
+  }
+
+  .banner-btn:hover{
+    background-color: #00503A;
   }
 
 
@@ -146,6 +154,10 @@
     border: none;
   }
 
+  .vision-btn1:hover{
+    background-color: #3A6FA0;
+  }
+
   .vision2{
     background-color: #C6E4D6;
     padding: 32px;
@@ -161,6 +173,10 @@
     border: none;
   }
 
+  .vision-btn2:hover{
+    background-color: #007A47;
+  }
+
   .vision3{
     background-color: #F7EBCF;
     padding: 24px;
@@ -174,6 +190,10 @@
     color: #FFFFFF;
     border-radius: 8px;
     border: none;
+  }
+
+  .vision-btn3:hover{
+    background-color: #D99A00;
   }
 
   .vision-title{
@@ -276,3 +296,84 @@
     border-radius: 8px;
     border: none;
   }
+
+  .news-btn:hover{
+    background-color: #00503A;
+  }
+
+
+  /* donate styles */
+    .donate{
+        max-width: 1280px;
+        margin: 0px 160px 80px 160px;
+        gap: 32px;
+    }
+    
+    .donate-title{
+        color: #0E0E0E;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .donate-description{
+        color: rgba(14, 14, 14, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        margin: 24px 88px 32px 88px;
+    }
+
+    .donate-container{
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        margin: 0px 17px 32px 17px;
+    }
+
+    .donate-btn{
+        /* background-color: #006A50; */
+        color: rgba(14, 14, 14, 0.80);
+        padding: 40px;
+        font-size: 40px;
+        font-weight: 700;
+        border-radius: 16px;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+    }
+
+    .donate-btn:hover{
+        background-color: #006A50;
+        color: #FFFFFF;
+    }
+
+    .donate-amount{
+        display: block;
+        align-items: center;
+        color: rgba(14, 14, 14, 0.30);
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        padding: 20px 40px;
+        width: 74%;
+        max-width: 1032px;
+        background-color: #FFFFFF;
+        margin: 0px 124px 32px 124px;
+        border: none;
+        border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    }
+
+    .donate-now{
+        padding: 17px 34px;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: #006A50;
+        border: 1px solid rgba(14, 14, 14, 0.10);
+        border-radius: 8px;
+        margin: 0px 565px 80px 555px;
+        width: 13%;
+    }
+
+    .donate-now:hover{
+        background-color: #00503A;
+    }
