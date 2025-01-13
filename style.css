@@ -346,6 +346,7 @@
         color: #FFFFFF;
     }
 
+    
     .donate-amount{
         display: block;
         align-items: center;
@@ -376,4 +377,91 @@
 
     .donate-now:hover{
         background-color: #00503A;
+    }
+
+
+    /* newsletter styles */
+    .newsletter{
+        background-color: #C6E4D6;
+        padding: 80px 100px;
+        max-width: 1280px;
+        margin: 0px 160px 80px 160px;
+    }
+    .newsletter-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0px 265px 0px 265px;
+    }
+
+    .newsletter-title{
+        color: #0E0E0E;
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .newsletter-description{
+        color: rgba(14, 14, 14, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 0px;
+    }
+
+    .subscribe-container {
+        display: flex;
+        align-items: center;
+       margin: 24px 0px; 
+        border-radius: 8px;
+        max-width: 730px;
+    }
+
+    .subscribe-input {
+        color: rgba(14, 14, 14, 0.30);
+        flex: 1;
+        padding: 18px 403px 18px 40px;
+        border: none;
+        outline: none;
+        border-radius: 5px 0 0 5px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .subscribe-button {
+        background-color: #006A50;;
+        color: white;
+        border: none;
+        padding: 18px 34px;
+        cursor: pointer;
+        border-radius: 0 5px 5px 0;
+        font-size: 14px;
+    }
+
+    .subscribe-button:hover {
+        background-color: #00503A;
+    }
+
+
+    /* footer styles */
+    .footer{
+        background-color: #ffffff;
+        padding: 50px 160px;
+        max-width: 1600px;
+        margin: 0px 160px;
+    }
+
+    .footer-title{
+        color: #0E0E0E;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .footer-social{
+        display: flex;
+        justify-content: center;
+        gap: 23px;
+        margin-top: 32px;
     }
